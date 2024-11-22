@@ -5,52 +5,52 @@ This project aims to predict customer churn for a telecommunications company usi
 
 
 
-Dataset
+i) Dataset
 The dataset used in this project is "WA_Fn-UseC_-Telco-Customer-Churn.csv". It contains information about:
 
-Customer demographics (gender, senior citizen status, partner, dependents)
+``Customer demographics (gender, senior citizen status, partner, dependents)
 
-Account information (tenure, contract type, payment method)
+``Account information (tenure, contract type, payment method)
 
-Services used (phone, internet, online security, tech support, etc.)
+``Services used (phone, internet, online security, tech support, etc.)
 
-Charges (monthly and total)
+``Charges (monthly and total)
 
-Churn status
+``Churn status
 
-Project Structure
+ii) Project Structure
 
-The project is structured as follows:
+  The project is structured as follows:
 
-1) Data Loading and Understanding
-
-2) Data Preprocessing
-
-3) Exploratory Data Analysis
-
-4) Feature Engineering
-
-5) Model Building and Evaluation
-
-6) Hyperparameter Tuning
-
-7) Model Selection
-
-8) Addressing Class Imbalance
-
-9) Final Model Evaluation
+      1) Data Loading and Understanding
+      
+      2) Data Preprocessing
+      
+      3) Exploratory Data Analysis
+      
+      4) Feature Engineering
+      
+      5) Model Building and Evaluation
+      
+      6) Hyperparameter Tuning
+      
+      7) Model Selection
+      
+      8) Addressing Class Imbalance
+      
+      9) Final Model Evaluation
 
 
 
 Following dependencies are needed to be installed:
 
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-imbalanced-learn
-xgboost
+      numpy
+      pandas
+      matplotlib
+      seaborn
+      scikit-learn
+      imbalanced-learn
+      xgboost
 
 Key Findings
 
