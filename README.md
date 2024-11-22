@@ -5,20 +5,17 @@ This project aims to predict customer churn for a telecommunications company usi
 
 
 
-i) Dataset
+Dataset
+
 The dataset used in this project is "WA_Fn-UseC_-Telco-Customer-Churn.csv". It contains information about:
 
-``Customer demographics (gender, senior citizen status, partner, dependents)
+      Customer demographics (gender, senior citizen status, partner, dependents)
+      Account information (tenure, contract type, payment method)
+      Services used (phone, internet, online security, tech support, etc.)
+      Charges (monthly and total)
+      Churn status
 
-``Account information (tenure, contract type, payment method)
-
-``Services used (phone, internet, online security, tech support, etc.)
-
-``Charges (monthly and total)
-
-``Churn status
-
-ii) Project Structure
+ Project Structure
 
   The project is structured as follows:
 
