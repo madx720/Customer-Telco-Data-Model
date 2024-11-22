@@ -2,25 +2,48 @@
 
 
 This project aims to predict customer churn for a telecommunications company using machine learning techniques.
+
+
+
 Dataset
 The dataset used in this project is "WA_Fn-UseC_-Telco-Customer-Churn.csv". It contains information about:
+
 Customer demographics (gender, senior citizen status, partner, dependents)
+
 Account information (tenure, contract type, payment method)
+
 Services used (phone, internet, online security, tech support, etc.)
+
 Charges (monthly and total)
+
 Churn status
+
 Project Structure
+
 The project is structured as follows:
-Data Loading and Understanding
-Data Preprocessing
-Exploratory Data Analysis
-Feature Engineering
-Model Building and Evaluation
-Hyperparameter Tuning
-Model Selection
-Addressing Class Imbalance
-Final Model Evaluation
-Dependencies
+
+1) Data Loading and Understanding
+
+2) Data Preprocessing
+
+3) Exploratory Data Analysis
+
+4) Feature Engineering
+
+5) Model Building and Evaluation
+
+6) Hyperparameter Tuning
+
+7) Model Selection
+
+8) Addressing Class Imbalance
+
+9) Final Model Evaluation
+
+
+
+Following dependencies are needed to be installed:
+
 numpy
 pandas
 matplotlib
@@ -28,7 +51,9 @@ seaborn
 scikit-learn
 imbalanced-learn
 xgboost
+
 Key Findings
+
 The dataset contains 7,043 customer records with 21 features.
 There is a class imbalance in the target variable (Churn).
 Random Forest Classifier performed the best among the models tested.
@@ -41,12 +66,11 @@ Evaluation Metrics
 Accuracy
 Confusion Matrix
 Classification Report (Precision, Recall, F1-Score)
-Future Work
-Try more advanced techniques for handling class imbalance.
-Experiment with other machine learning algorithms.
-Perform feature importance analysis to identify key factors influencing churn.
-Develop a user interface for easy model deployment and predictions.
+
 How to Use
-Clone the repository
-Install the required dependencies
-Run the Jupyter notebook to see the full analysis and model building process
+
+1) Clone the repository
+
+2) Install the required dependencies
+
+3) Run the Jupyter notebook to see the full analysis and model building process
